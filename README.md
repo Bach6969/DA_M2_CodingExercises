@@ -34,9 +34,13 @@ cd DA_M2_CodingExercises
 ### 2. Install Required Package
 
 You must install Marimo before running any exercises:
-
+Windows:
 ```bash
 pip install marimo
+```
+Mac/Linux:
+```bash
+pip3 install marimo
 ```
 
 ---
@@ -98,20 +102,14 @@ For each exercise:
 ### If Marimo won’t run:
 - Make sure you installed it:
   ```bash
-  pip install marimo
+  marimo --verson
   ```
 
 ### If you get errors:
-- Make sure you're running the correct file:
+- Make sure you're located in the project directory when you run the command:
   ```bash
-  marimo run m2w1_marimo.py
+  pwd
   ```
-
-### If outputs don’t match:
-- Double check:
-  - column names
-  - indexing
-  - method usage (`.loc`, `.iloc`, `.groupby`, etc.)
 
 ---
 
